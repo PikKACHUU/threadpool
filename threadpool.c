@@ -7,9 +7,9 @@
 #include<errno.h>
 #include<assert.h>
  
-#define DEFAULT_TIME 10 //10s检测一次
-#define MIN_WAIT_TASK_NUM 10/*如果queue_size > MIN_WAIT_TASK_NUM 添加新的线程到线程池*/ 
-#define DEFAULT_THREAD_VARY 3/*每次创建和销毁线程的个数*/
+#define DEFAULT_TIME 10 
+#define MIN_WAIT_TASK_NUM 10
+#define DEFAULT_THREAD_VARY 3
 #define true 1
 #define false 0
  
